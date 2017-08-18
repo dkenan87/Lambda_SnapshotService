@@ -100,6 +100,7 @@ namespace Lambda_SnapshotService
                     Console.WriteLine("Exception Message: " + innerException.Message);
                     Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
                 }
+                throw;
             }
             catch (Exception ex)
             {
@@ -107,6 +108,7 @@ namespace Lambda_SnapshotService
                 Console.WriteLine("Exception Type: " + ex.GetType());
                 Console.WriteLine("Exception Message: " + ex.Message);
                 Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
+                throw;
             }
 
         }
@@ -163,6 +165,7 @@ namespace Lambda_SnapshotService
                     Console.WriteLine("Exception Message: " + innerException.Message);
                     Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
                 }
+                throw;
             }
             catch (Exception ex)
             {
@@ -170,6 +173,7 @@ namespace Lambda_SnapshotService
                 Console.WriteLine("Exception Type: " + ex.GetType());
                 Console.WriteLine("Exception Message: " + ex.Message);
                 Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
+                throw;
             }
 
         }
@@ -241,7 +245,7 @@ namespace Lambda_SnapshotService
                     Console.WriteLine("Exception Message: " + innerException.Message);
                     Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
                 }
-                return null;
+                throw;
             }
             catch (Exception ex)
             {
@@ -249,7 +253,7 @@ namespace Lambda_SnapshotService
                 Console.WriteLine("Exception Type: " + ex.GetType());
                 Console.WriteLine("Exception Message: " + ex.Message);
                 Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
-                return null;
+                throw;
 
             }
 
@@ -326,7 +330,7 @@ namespace Lambda_SnapshotService
                     Console.WriteLine("Exception Message: " + innerException.Message);
                     Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
                 }
-                return null;
+                throw;
             }
             catch (Exception ex)
             {
@@ -334,7 +338,7 @@ namespace Lambda_SnapshotService
                 Console.WriteLine("Exception Type: " + ex.GetType());
                 Console.WriteLine("Exception Message: " + ex.Message);
                 Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
-                return null;
+                throw;
 
             }
 
@@ -368,7 +372,7 @@ namespace Lambda_SnapshotService
                     Console.WriteLine("Exception Message: " + innerException.Message);
                     Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
                 }
-                return null;
+                throw;
             }
             catch (Exception ex)
             {
@@ -376,7 +380,7 @@ namespace Lambda_SnapshotService
                 Console.WriteLine("Exception Type: " + ex.GetType());
                 Console.WriteLine("Exception Message: " + ex.Message);
                 Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
-                return null;
+                throw;
 
             }
 
@@ -419,7 +423,7 @@ namespace Lambda_SnapshotService
                     Console.WriteLine("Exception Message: " + innerException.Message);
                     Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
                 }
-                return null;
+                throw;
             }
             catch (Exception ex)
             {
@@ -427,7 +431,7 @@ namespace Lambda_SnapshotService
                 Console.WriteLine("Exception Type: " + ex.GetType());
                 Console.WriteLine("Exception Message: " + ex.Message);
                 Console.WriteLine("\nException Full Message below: \n" + ex.ToString());
-                return null;
+                throw;
 
             }
 
